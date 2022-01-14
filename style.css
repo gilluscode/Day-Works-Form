@@ -85,6 +85,7 @@ form {
   max-width: 500px;
   margin: auto;
   border-radius: 5px;
+  overflow: hidden;
 }
 
 .formGeneral {
@@ -93,6 +94,7 @@ form {
 
 .metricsE {
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .metricsV {
@@ -143,4 +145,17 @@ footer p {
   margin-top: 10px;
   color: #fff;
   font-size: 12px;
+}
+
+@media (max-width: 400px) {
+  .form {
+    width: 80vw;
+  }
+  .one {
+    padding: 10px;
+  }
+
+  .fieldset {
+    padding: 0;
+  }
 }

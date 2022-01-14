@@ -34,7 +34,7 @@ body {
 
 #name {
   display: flex;
-  width: 200px;
+  width: 90%;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -42,14 +42,22 @@ body {
 
 #hours {
   display: flex;
-  width: 200px;
+  width: 90%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#message {
+  display: flex;
+  width: 90%;
   text-align: center;
   justify-content: center;
   align-items: center;
 }
 
 input {
-  width: 50%;
+  width: 100%;
   margin-bottom: 5px;
   padding: 10px;
   border-radius: 4px;
@@ -85,7 +93,6 @@ form {
   max-width: 500px;
   margin: auto;
   border-radius: 5px;
-  overflow: hidden;
 }
 
 .formGeneral {
@@ -94,7 +101,6 @@ form {
 
 .metricsE {
   margin-bottom: 20px;
-  width: 100%;
 }
 
 .metricsV {
@@ -148,14 +154,27 @@ footer p {
 }
 
 @media (max-width: 400px) {
-  .form {
-    width: 80vw;
-  }
-  .one {
-    padding: 10px;
+  #name {
+    width: 95%;
+    padding: 10px 20px;
   }
 
-  .fieldset {
-    padding: 0;
+  #hours {
+    width: 95%;
+    padding: 10px 20px;
+  }
+
+  #message {
+    width: 95%;
+    margin: 10px 10px;
+  }
+
+  #fname {
+    width: 100%;
+    padding: 10px 40px;
+  }
+
+  .notes .four fieldset {
+    padding: 0.5rem 0.75rem;
   }
 }
